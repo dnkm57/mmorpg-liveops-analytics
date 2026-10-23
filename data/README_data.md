@@ -1,6 +1,6 @@
 # Aurelion Online 라이브 서비스 시뮬레이션 데이터 명세
 
-> 가상의 MMORPG **Aurelion Online**의 운영 로그입니다. 실제 서비스 데이터가 아니며, 라이브 서비스 분석(KPI 리포트, 이상·어뷰징 탐지, 가설 검정) 연습용으로 직접 생성했습니다. 생성 코드는 `gen_mmorpg_data.py`(seed 42), 정합성 검사는 `validate_data.py`입니다.
+> 가상의 MMORPG **Aurelion Online**의 운영 로그입니다. 실제 서비스 데이터가 아니며, 라이브 서비스 분석(KPI 리포트, 이상·어뷰징 탐지, 가설 검정) 연습용으로 Claude를 사용하여 직접 생성했습니다. 생성 코드는 `gen_mmorpg_data.py`(seed 42), 정합성 검사는 `validate_data.py`입니다.
 
 ## 1. 시나리오
 
@@ -130,7 +130,7 @@
 
 # Aurelion Online: Live-Service Simulation Data Specification
 
-> Operational logs of a fictional MMORPG, **Aurelion Online**. This is not real service data. It was generated for practicing live-service analytics (KPI reporting, anomaly and abuse detection, hypothesis testing). The generator is `gen_mmorpg_data.py` (seed 42) and the consistency checker is `validate_data.py`.
+> Operational logs of a fictional MMORPG, **Aurelion Online**. This is not real service data. I generated it myself with Claude for practicing live-service analytics (KPI reporting, anomaly and abuse detection, hypothesis testing). The generator is `gen_mmorpg_data.py` (seed 42) and the consistency checker is `validate_data.py`.
 
 ## 1. Scenario
 
